@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "url": "https://github.com/PostAI-Inst/labs/releases/download/v0.1.0-labs/postai-labs-source-20261124.zip",
+  "sha256": "2f50ad2791eff62fd0b02235e26f752126114ce909c9566eeb732f9385366b5d",
+  "bytes": 282140610,
+  "created_at": "2026-11-24",
+  "project_count": 41,
+  "exclude_paths": [],
+  "description": "Verified baseline sources in this repository's Release; files in main provide incremental overrides."
+}

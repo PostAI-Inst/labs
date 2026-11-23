@@ -1,0 +1,832 @@
+{
+  "schema_version": 1,
+  "base_path": "/labs/",
+  "updated_at": "2026-11-24",
+  "categories": [
+    {
+      "id": "games",
+      "label": "未来游戏",
+      "description": "把未来过成一次生活。"
+    },
+    {
+      "id": "space",
+      "label": "深空与算力",
+      "description": "从地面需求到轨道工程。"
+    },
+    {
+      "id": "industry",
+      "label": "制造与工业",
+      "description": "从物理约束到工业扩张。"
+    },
+    {
+      "id": "economy",
+      "label": "经济与分配",
+      "description": "追踪资金、产业与人的收入。"
+    },
+    {
+      "id": "society",
+      "label": "社会与制度",
+      "description": "探索社会生态位与共生机制。"
+    },
+    {
+      "id": "futures",
+      "label": "未来与文明",
+      "description": "在多重未来中检验判断。"
+    },
+    {
+      "id": "research",
+      "label": "科研与方法",
+      "description": "让研究过程可以被检验。"
+    },
+    {
+      "id": "culture",
+      "label": "视觉与传播",
+      "description": "把研究变成可体验的表达。"
+    }
+  ],
+  "projects": [
+    {
+      "id": "orbital-observatory",
+      "title": "全球轨道与地面光度实验室",
+      "description": "WebGL 轨道、地面夜空、建设年代、工业扩产与太阳系尺度。",
+      "category": "space",
+      "tags": [],
+      "entry": "projects/orbital-observatory/index.html",
+      "status": "ready",
+      "updated_at": "2026-11-17",
+      "featured": true,
+      "kind": "交互研究",
+      "notes": "WebGL2 与浮点颜色缓冲需求；条件情景，非部署概率预测。",
+      "source": {
+        "label": "postai_orbital_observatory_v5.html",
+        "url": ""
+      }
+    },
+    {
+      "id": "orbital-dawn-film",
+      "title": "晨昏线上的星群",
+      "description": "将轨道建设、反射光度和不同城市的地面体验连成可暂停探索的交互影片。",
+      "category": "space",
+      "tags": [],
+      "entry": "projects/orbital-dawn-film/index.html",
+      "status": "ready",
+      "updated_at": "2026-11-19",
+      "featured": false,
+      "kind": "交互影片",
+      "notes": "",
+      "source": {
+        "label": "晨昏线上的星群_交互影片.html",
+        "url": ""
+      }
+    },
+    {
+      "id": "orbital-datacenter-film",
+      "title": "天上的机房：造一圈星",
+      "description": "从单颗卫星到星座组网的交互影像，配有观测台、模型与来源。",
+      "category": "space",
+      "tags": [],
+      "entry": "projects/orbital-datacenter-film/index.html",
+      "status": "ready",
+      "updated_at": "2026-11-18",
+      "featured": false,
+      "kind": "交互影片",
+      "notes": "",
+      "source": {
+        "label": "天上的机房_交互视频.html",
+        "url": ""
+      }
+    },
+    {
+      "id": "compute-future",
+      "title": "算力未来：从人均需求到轨道工程",
+      "description": "调整服务需求、芯片能效、成本与轨道工程参数，检查算力扩张的物理账本。",
+      "category": "space",
+      "tags": [],
+      "entry": "projects/compute-future/index.html",
+      "status": "ready",
+      "updated_at": "2026-11-16",
+      "featured": false,
+      "kind": "交互研究",
+      "notes": "",
+      "source": {
+        "label": "compute_future_model.html",
+        "url": ""
+      }
+    },
+    {
+      "id": "orbital-photometry",
+      "title": "轨道光度与反事实实验",
+      "description": "按方位比较数量密度和面亮度，观察单星视星等并做单因素反事实。",
+      "category": "space",
+      "tags": [],
+      "entry": "projects/orbital-photometry/index.html",
+      "status": "ready",
+      "updated_at": "2026-11-16",
+      "featured": false,
+      "kind": "交互研究",
+      "notes": "",
+      "source": {
+        "label": "postai_orbital_photometry_v2.html",
+        "url": ""
+      }
+    },
+    {
+      "id": "orbital-sky-lab",
+      "title": "晨昏线：轨道算力天空实验室",
+      "description": "探索轨道算力在一天中的可见窗口、地影、地面天空与工业规模。",
+      "category": "space",
+      "tags": [],
+      "entry": "projects/orbital-sky-lab/index.html",
+      "status": "ready",
+      "updated_at": "2026-11-15",
+      "featured": false,
+      "kind": "交互研究",
+      "notes": "",
+      "source": {
+        "label": "postai_orbital_sky_lab.html",
+        "url": ""
+      }
+    },
+    {
+      "id": "orbital-visual-atlas",
+      "title": "轨道算力天空视觉图集",
+      "description": "一组关于算力星座与全球夜空的研究视觉场景。",
+      "category": "space",
+      "tags": [],
+      "entry": "projects/orbital-visual-atlas/index.html",
+      "status": "ready",
+      "updated_at": "2026-11-15",
+      "featured": false,
+      "kind": "交互研究",
+      "notes": "",
+      "source": {
+        "label": "postai_orbital_visual_atlas.html",
+        "url": ""
+      }
+    },
+    {
+      "id": "capital-flows",
+      "title": "资本迁移：平台到算力资金流图谱",
+      "description": "从平台现金流和资本开支出发，比较中美平台向算力投资转移的机制。",
+      "category": "economy",
+      "tags": [],
+      "entry": "projects/capital-flows/index.html",
+      "status": "ready",
+      "updated_at": "2026-11-12",
+      "featured": false,
+      "kind": "交互研究",
+      "notes": "",
+      "source": {
+        "label": "后AI研究所_平台资本与算力资金流可视化(1).html",
+        "url": ""
+      }
+    },
+    {
+      "id": "income-compute",
+      "title": "钱没有消失，繁荣去了哪里？",
+      "description": "交互检验平台费用、经营利润、收入分配与集中算力投资的行业差异。",
+      "category": "economy",
+      "tags": [],
+      "entry": "projects/income-compute/index.html",
+      "status": "ready",
+      "updated_at": "2026-11-03",
+      "featured": false,
+      "kind": "交互研究",
+      "notes": "",
+      "source": {
+        "label": "postai_income_compute_lab.html",
+        "url": ""
+      }
+    },
+    {
+      "id": "ten-year-economy",
+      "title": "钱的下一站：十年产业与收入循环",
+      "description": "用行业观察台与十年热图推演产业、收入循环和积累能力的变化。",
+      "category": "economy",
+      "tags": [],
+      "entry": "projects/ten-year-economy/index.html",
+      "status": "ready",
+      "updated_at": "2026-11-03",
+      "featured": false,
+      "kind": "交互研究",
+      "notes": "",
+      "source": {
+        "label": "postai_ten_year_story.html",
+        "url": ""
+      }
+    },
+    {
+      "id": "economic-narrative",
+      "title": "钱的下一站：叙事与研究工作台",
+      "description": "把动态叙事、产业研究舱和配音时间轴放进同一交互系统。",
+      "category": "economy",
+      "tags": [],
+      "entry": "projects/economic-narrative/index.html",
+      "status": "ready",
+      "updated_at": "2026-11-04",
+      "featured": true,
+      "kind": "交互研究",
+      "notes": "",
+      "source": {
+        "label": "postai_narrative_system.html",
+        "url": ""
+      }
+    },
+    {
+      "id": "execution-reliability",
+      "title": "本地执行可靠性实验室",
+      "description": "将本地执行风险拆成五条作用路径，观察它们怎样改变工业扩张。",
+      "category": "industry",
+      "tags": [],
+      "entry": "projects/execution-reliability/index.html",
+      "status": "ready",
+      "updated_at": "2026-10-30",
+      "featured": false,
+      "kind": "交互研究",
+      "notes": "",
+      "source": {
+        "label": "postai_execution_reliability.html",
+        "url": ""
+      }
+    },
+    {
+      "id": "social-ecology",
+      "title": "繁荣流向谁：社会生态位与经济闭环",
+      "description": "检验不同人的社会生态位、生活成本支付机制与长期经济闭环。",
+      "category": "society",
+      "tags": [],
+      "entry": "projects/social-ecology/index.html",
+      "status": "ready",
+      "updated_at": "2026-10-09",
+      "featured": false,
+      "kind": "交互研究",
+      "notes": "",
+      "source": {
+        "label": "后AI_繁荣流向谁_交互研究室.html",
+        "url": ""
+      }
+    },
+    {
+      "id": "human-ecology",
+      "title": "异质而共生：后AI社会设计实验室",
+      "description": "把人口异质性、组织方式、收入与公共制度放入社会设计情景。",
+      "category": "society",
+      "tags": [],
+      "entry": "projects/human-ecology/index.html",
+      "status": "ready",
+      "updated_at": "2026-10-10",
+      "featured": false,
+      "kind": "交互研究",
+      "notes": "",
+      "source": {
+        "label": "异质而共生_后AI社会设计实验室.html",
+        "url": ""
+      }
+    },
+    {
+      "id": "futures-studio",
+      "title": "文明边界：后AI未来学工作台",
+      "description": "课程、文献书架与文明实验室，连接证据阅读和未来情景推演。",
+      "category": "futures",
+      "tags": [],
+      "entry": "projects/futures-studio/index.html",
+      "status": "ready",
+      "updated_at": "2026-10-08",
+      "featured": false,
+      "kind": "交互研究",
+      "notes": "",
+      "source": {
+        "label": "PostAI_Futures_Studio_CN_Lite.html",
+        "url": ""
+      }
+    },
+    {
+      "id": "dialogue-theatre",
+      "title": "谁教会机器知道轻重：思想剧场",
+      "description": "用分章对白和交互场景讨论 AI 的判断、分寸与人与机器的关系。",
+      "category": "futures",
+      "tags": [],
+      "entry": "projects/dialogue-theatre/index.html",
+      "status": "ready",
+      "updated_at": "2026-10-23",
+      "featured": false,
+      "kind": "交互研究",
+      "notes": "",
+      "source": {
+        "label": "postai_dialogue_theatre.html",
+        "url": ""
+      }
+    },
+    {
+      "id": "theatre-visual-preview",
+      "title": "后AI思想剧场：无声动画预览",
+      "description": "思想剧场的导演视图与分镜预览；此版本没有配音音轨。",
+      "category": "futures",
+      "tags": [],
+      "entry": "projects/theatre-visual-preview/index.html",
+      "status": "limited",
+      "updated_at": "2026-10-23",
+      "featured": false,
+      "kind": "交互研究",
+      "notes": "本文件无声；配音与本机FFmpeg转码依赖另行提供的本地制作环境，公开静态预览不提供此功能。",
+      "source": {
+        "label": "postai_visual_preview.html",
+        "url": ""
+      }
+    },
+    {
+      "id": "research-naive",
+      "title": "让 AI 进入研发循环",
+      "description": "Naive-N0.5-Flash 论文解读：机制、可核查数字与待验证命题。",
+      "category": "research",
+      "tags": [],
+      "entry": "projects/research-naive/index.html",
+      "status": "ready",
+      "updated_at": "2026-09-28",
+      "featured": false,
+      "kind": "交互研究",
+      "notes": "",
+      "source": {
+        "label": "naive-ai-deep-dive.html",
+        "url": ""
+      }
+    },
+    {
+      "id": "research-praxist",
+      "title": "PRAXIST：可演化研究系统",
+      "description": "研究流程的五种增强方向、改进提案与证据边界交互图谱。",
+      "category": "research",
+      "tags": [],
+      "entry": "projects/research-praxist/index.html",
+      "status": "ready",
+      "updated_at": "2026-09-28",
+      "featured": false,
+      "kind": "交互研究",
+      "notes": "",
+      "source": {
+        "label": "praxist-research-atlas.html",
+        "url": ""
+      }
+    },
+    {
+      "id": "infographic-guide",
+      "title": "后AI系列信息图交互手册",
+      "description": "从研究问题到八张图的论证设计、机制解释与证据语言。",
+      "category": "research",
+      "tags": [],
+      "entry": "projects/infographic-guide/index.html",
+      "status": "ready",
+      "updated_at": "2026-09-28",
+      "featured": false,
+      "kind": "交互研究",
+      "notes": "",
+      "source": {
+        "label": "postai-interactive-guide.html",
+        "url": ""
+      }
+    },
+    {
+      "id": "futures-reader",
+      "title": "集智未来学：第一批 37 页讲义",
+      "description": "未来学读书会图文讲义的离线翻页阅读器。",
+      "category": "futures",
+      "tags": [],
+      "entry": "projects/futures-reader/index.html",
+      "status": "ready",
+      "updated_at": "2026-10-14",
+      "featured": false,
+      "kind": "交互研究",
+      "notes": "",
+      "source": {
+        "label": "PostAI_Batch01_Offline_Viewer.html",
+        "url": ""
+      }
+    },
+    {
+      "id": "auto-am-materials",
+      "title": "汽车增材制造：工艺与材料图谱",
+      "description": "浏览 SLM、SLS 与光固化汽车零部件、材料牌号和工艺参数。",
+      "category": "industry",
+      "tags": [],
+      "entry": "projects/auto-am-materials/index.html",
+      "status": "ready",
+      "updated_at": "2026-11-18",
+      "featured": false,
+      "kind": "交互研究",
+      "notes": "",
+      "source": {
+        "label": "auto_am_offline.html",
+        "url": ""
+      }
+    },
+    {
+      "id": "automotive-atlas",
+      "title": "汽车 3D 打印真实应用沙盘",
+      "description": "按车身部件浏览已实现的增材制造应用与对应技术。",
+      "category": "industry",
+      "tags": [],
+      "entry": "projects/automotive-atlas/index.html",
+      "status": "ready",
+      "updated_at": "2026-11-16",
+      "featured": false,
+      "kind": "交互研究",
+      "notes": "",
+      "source": {
+        "label": "automotive_3d_printing_atlas.html",
+        "url": ""
+      }
+    },
+    {
+      "id": "supermanifold-lpbf",
+      "title": "超级歧管 LPBF 工艺概念演示",
+      "description": "流道透视、逐层成形、商业化流程和单件成本情景；属于概念演示。",
+      "category": "industry",
+      "tags": [],
+      "entry": "projects/supermanifold-lpbf/index.html",
+      "status": "ready",
+      "updated_at": "2026-11-13",
+      "featured": false,
+      "kind": "交互研究",
+      "notes": "概念工艺演示，不代表已核实的特斯拉量产结构或 OEM 工艺。",
+      "source": {
+        "label": "index.html",
+        "url": ""
+      }
+    },
+    {
+      "id": "magnetic-glove",
+      "title": "FLUX LAB：磁感知六自由度解算",
+      "description": "九个带符号观测解出六自由度，含空间切片、波形、串口实验与解算过程。",
+      "category": "industry",
+      "tags": [],
+      "entry": "projects/magnetic-glove/index.html",
+      "status": "ready",
+      "updated_at": "2026-11-16",
+      "featured": false,
+      "kind": "交互研究",
+      "notes": "串口接入需支持 Web Serial 的桌面浏览器并由使用者自行授予设备访问；离线演示可直接运行。",
+      "source": {
+        "label": "magnetic_glove_webgl_v4.html",
+        "url": ""
+      }
+    },
+    {
+      "id": "automotive-assembly",
+      "title": "汽车装配视觉演示",
+      "description": "用同源视频与进度控制演示车辆拆解、合体与往返循环。",
+      "category": "industry",
+      "tags": [],
+      "entry": "projects/automotive-assembly/index.html",
+      "status": "ready",
+      "updated_at": "2026-11-13",
+      "featured": false,
+      "kind": "交互研究",
+      "notes": "画面来自 AI 关键帧与光流补帧，不是 OEM 装配数据或真实机械轨迹。",
+      "source": {
+        "label": "Model3_Highland_Assembly_v3",
+        "url": ""
+      }
+    },
+    {
+      "id": "boardgame-lab",
+      "title": "后AI游戏实验室",
+      "description": "从桌面合作建设到在线规则怪谈，进入后AI研究所的未来生活实验。",
+      "category": "games",
+      "tags": [
+        "桌游",
+        "在线游戏"
+      ],
+      "entry": "projects/boardgame-lab/index.html",
+      "status": "ready",
+      "updated_at": "2026-11-24",
+      "featured": false,
+      "kind": "游戏目录",
+      "notes": "",
+      "source": {
+        "label": "原桌游实验室仓库",
+        "url": "https://github.com/PostAI-Inst/boardgame-lab"
+      }
+    },
+    {
+      "id": "postai-rules",
+      "title": "后AI生活须知：本人仍在此处",
+      "description": "城市确认家人已经全部到齐，弟弟的座位却空着。通过调查、证据与选择走入规则背后的制度。",
+      "category": "games",
+      "tags": [
+        "十万个未来",
+        "未来生活",
+        "规则怪谈"
+      ],
+      "entry": "projects/boardgame-lab/games/postai-rules/index.html",
+      "status": "ready",
+      "updated_at": "2026-11-24",
+      "featured": true,
+      "kind": "在线叙事游戏",
+      "notes": "",
+      "source": {
+        "label": "原桌游实验室仓库",
+        "url": "https://github.com/PostAI-Inst/boardgame-lab"
+      }
+    },
+    {
+      "id": "factory",
+      "title": "模块化制造沙盘",
+      "description": "配置加工、装配、测试与公用工程，在有尺度的三维工厂中比较订单、瓶颈、扩容和生活图景。",
+      "category": "industry",
+      "tags": [
+        "WebGL",
+        "工厂",
+        "机器人",
+        "产能"
+      ],
+      "entry": "projects/factory/index.html",
+      "status": "ready",
+      "updated_at": "2026-11-20",
+      "featured": true,
+      "kind": "三维沙盘",
+      "notes": "工时、成本与负荷为情景假设。 三维布局与月度产能尚未联合优化；不代替真实工程设计。",
+      "source": {
+        "label": "0.2 · Sites保存版本3",
+        "url": ""
+      },
+      "auxiliary_entries": []
+    },
+    {
+      "id": "rocket",
+      "title": "从火箭到空间算力",
+      "description": "旋转与拆解火箭和卫星，探索运力、推进剂、复用成本、热控与空间算力星座的扩张条件。",
+      "category": "space",
+      "tags": [
+        "3D",
+        "Starship",
+        "卫星",
+        "成本模型"
+      ],
+      "entry": "projects/rocket/index.html",
+      "status": "ready",
+      "updated_at": "2026-11-17",
+      "featured": false,
+      "kind": "三维沙盘",
+      "notes": "来源快照截至2026-11-17。 轨道运力与星座规模是条件模型；内部系统和未来放大构型为示意。",
+      "source": {
+        "label": "1.0 · 2026-11-17",
+        "url": ""
+      },
+      "auxiliary_entries": []
+    },
+    {
+      "id": "automotive",
+      "title": "汽车增材图谱 · 手机版",
+      "description": "浏览76项汽车3D打印应用和11张分类映射图，按零件、材料与工艺查看公开证据。",
+      "category": "industry",
+      "tags": [
+        "汽车",
+        "3D打印",
+        "材料",
+        "移动端"
+      ],
+      "entry": "projects/automotive/index.html",
+      "status": "ready",
+      "updated_at": "2026-11-17",
+      "featured": false,
+      "kind": "研究工作台",
+      "notes": "案例与材料按原项目整理口径展示。 外部证据链接需要联网；未在本次迁移中重核每条产业数据。",
+      "source": {
+        "label": "Sites保存版本1",
+        "url": ""
+      },
+      "auxiliary_entries": []
+    },
+    {
+      "id": "bootstrap",
+      "title": "工业自举与摩尔规律实验室",
+      "description": "用能源、材料、设备和建设四部门模型，比较30年与50年的自动化扩张、维护和外部供应约束。",
+      "category": "industry",
+      "tags": [
+        "摩尔规律",
+        "工业自举",
+        "系统模型",
+        "长期情景"
+      ],
+      "entry": "projects/bootstrap/index.html",
+      "status": "ready",
+      "updated_at": "2026-10-28",
+      "featured": false,
+      "kind": "研究工作台",
+      "notes": "默认数据是示例假设，未连接真实行业遥测。 页面内可选刷新只在打开页面时运行；可选代理接口需要另行部署后端。 指标是部门相对产能的约束值，不是GDP或收入预测。",
+      "source": {
+        "label": "0.1.0",
+        "url": ""
+      },
+      "auxiliary_entries": []
+    },
+    {
+      "id": "institute",
+      "title": "研究所网站设计探索",
+      "description": "以人的生活、社会组织和文明可能为线索，体验后AI研究所品牌网站的第三版设计样稿。",
+      "category": "culture",
+      "tags": [
+        "品牌",
+        "网站设计",
+        "研究地图"
+      ],
+      "entry": "projects/institute/index.html",
+      "status": "ready",
+      "updated_at": "2026-10-28",
+      "featured": false,
+      "kind": "研究工作台",
+      "notes": "这是独立设计预览，没有替换postai.institute官网。 42条研究主题沿用2026-10-28的原站提取记录。",
+      "source": {
+        "label": "品牌设计第三版 · 2026-10-28",
+        "url": ""
+      },
+      "auxiliary_entries": [
+        "projects/institute/about/index.html",
+        "projects/institute/research/index.html"
+      ]
+    },
+    {
+      "id": "us-china",
+      "title": "中美K型分化研究工作台",
+      "description": "比较技术扩散、劳动转型、资产所有权、公共分享和生活成本怎样影响不同收入群体。",
+      "category": "economy",
+      "tags": [
+        "收入分配",
+        "中美比较",
+        "敏感性分析",
+        "公开数据"
+      ],
+      "entry": "projects/us-china/index.html",
+      "status": "ready",
+      "updated_at": "2026-10-28",
+      "featured": false,
+      "kind": "研究工作台",
+      "notes": "情景账本不是GDP或实际可支配收入预测。 世界银行数据刷新依赖公开API；FRED、BLS及NBS适配仍是预留流程。 不同部署地址的浏览器本地记录独立，请通过JSON导入导出迁移。",
+      "source": {
+        "label": "版本与来源",
+        "url": "projects/us-china/versions.html"
+      },
+      "auxiliary_entries": [
+        "projects/us-china/archive/2026-10-27-standalone.html",
+        "projects/us-china/versions.html"
+      ]
+    },
+    {
+      "id": "industrial",
+      "title": "40亿人工业化交互研究系统",
+      "description": "从全球工业化总览走进非洲十国，探索能源、外汇、维修、工业再生产与家庭生活之间的关系。",
+      "category": "industry",
+      "tags": [
+        "工业化",
+        "非洲",
+        "能源",
+        "家庭账本"
+      ],
+      "entry": "projects/industrial/index.html",
+      "status": "ready",
+      "updated_at": "2026-10-23",
+      "featured": false,
+      "kind": "研究工作台",
+      "notes": "“40亿人”为原研究范围的聚合叙事，不是官方未工业化人口分类。 工业平台与家庭账本是独立情景，不是国家增长或现代化预算预测。",
+      "source": {
+        "label": "版本与来源",
+        "url": "projects/industrial/versions.html"
+      },
+      "auxiliary_entries": [
+        "projects/industrial/archive/alternate-accounting-v1.html",
+        "projects/industrial/versions.html",
+        "projects/industrial/postai-industrial-futures.html"
+      ]
+    },
+    {
+      "id": "civilization",
+      "title": "后AI文明探索图谱",
+      "description": "进入虚构空间工厂的连续故事，通过太阳系控制台与交互实验思考AI风险、控制窗口、机器意义和文明共存。",
+      "category": "futures",
+      "tags": [
+        "太阳系",
+        "AI安全",
+        "控制窗口",
+        "机器文明"
+      ],
+      "entry": "projects/civilization/index.html",
+      "status": "ready",
+      "updated_at": "2026-10-13",
+      "featured": false,
+      "kind": "三维沙盘",
+      "notes": "轨道采用2000—2050教学近似，事件窗口和工厂模型属于显式假设。 WebGL不可用时降级至二维图解。 论文插图保留原来源与许可，不代表本研究所原创实测。",
+      "source": {
+        "label": "版本与来源",
+        "url": "projects/civilization/versions.html"
+      },
+      "auxiliary_entries": [
+        "projects/civilization/PostAI_Civilization_Atlas.html",
+        "projects/civilization/versions.html"
+      ]
+    },
+    {
+      "id": "praxist",
+      "title": "PRAXIST · IceCube研究轨迹",
+      "description": "以可交互的研究谱系浏览自动化科学探索步骤、证据与研究分支。",
+      "category": "research",
+      "tags": [
+        "自动科研",
+        "PRAXIST",
+        "IceCube",
+        "研究谱系"
+      ],
+      "entry": "projects/praxist/index.html",
+      "status": "ready",
+      "updated_at": "2026-08-30",
+      "featured": false,
+      "kind": "研究工作台",
+      "notes": "原项目研究记录的可视化；迁移没有新增实验或独立复现。",
+      "source": {
+        "label": "Sites保存版本2",
+        "url": ""
+      },
+      "auxiliary_entries": []
+    },
+    {
+      "id": "fut100k",
+      "title": "十万个未来：未来已有人居住",
+      "description": "2–4人、六幕未来的合作建设与生活叙事桌游。汇集99张卡牌、城市棋盘、规则与故事回声册。",
+      "category": "games",
+      "tags": [
+        "桌游",
+        "99张卡牌",
+        "合作建设",
+        "打印"
+      ],
+      "entry": "projects/boardgame-lab/games/fut100k/index.html",
+      "status": "ready",
+      "updated_at": "2026-11-24",
+      "featured": false,
+      "kind": "合作叙事桌游",
+      "notes": "满画幅1.2试玩版本；含完整A4打印包。",
+      "source": {
+        "label": "原桌游仓库",
+        "url": "https://github.com/PostAI-Inst/boardgame-lab"
+      }
+    },
+    {
+      "id": "pelican-coast",
+      "title": "鹈鹕海岸：Shader 交互实验",
+      "description": "以程序化图形生成海岸骑行场景的 WebGL 视觉实验。",
+      "category": "culture",
+      "tags": [],
+      "entry": "projects/pelican-coast/index.html",
+      "status": "ready",
+      "updated_at": "2026-11-10",
+      "featured": false,
+      "kind": "交互视觉",
+      "notes": "艺术与研究表达示意，不是已观测的未来景象。",
+      "source": {
+        "label": "pelican_coast_shadertoy(1).html",
+        "url": ""
+      },
+      "auxiliary_entries": []
+    },
+    {
+      "id": "ai-multiplier-gallery",
+      "title": "AI乘数效应：交互图片画廊",
+      "description": "平台经济、算力投入与生活改善主题的研究图集，含来源和阅读指南。",
+      "category": "economy",
+      "tags": [],
+      "entry": "projects/ai-multiplier-gallery/index.html",
+      "status": "ready",
+      "updated_at": "2026-11-12",
+      "featured": false,
+      "kind": "交互视觉",
+      "notes": "",
+      "source": {
+        "label": "后AI研究所_AI乘数效应_图片画廊.html",
+        "url": ""
+      },
+      "auxiliary_entries": [
+        "projects/ai-multiplier-gallery/sources.html"
+      ]
+    },
+    {
+      "id": "tomorrow-open",
+      "title": "明天照常营业：早期原型 v0.1",
+      "description": "十万个未来系列的早期新湾社区剧本：4人、3轮、27张原卡；提供卡牌预览、原版规则与打印套件。",
+      "category": "games",
+      "tags": [
+        "早期原型",
+        "27张卡牌"
+      ],
+      "entry": "projects/tomorrow-open/index.html",
+      "status": "ready",
+      "updated_at": "2026-10-28",
+      "featured": false,
+      "kind": "桌游档案",
+      "notes": "早期历史原型，尚未真人试玩；与新版99卡/六幕版本并列，不混用规则。",
+      "source": {
+        "label": "PostAI_Tomorrow_Open_v0.1",
+        "url": ""
+      },
+      "auxiliary_entries": []
+    }
+  ]
+}

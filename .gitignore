@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+node_modules/
+.env
+.env.*
+.openai/
+.DS_Store
+catalogue-audit.json
+private-registry*.json
+postai_labs_private_registry*.json
