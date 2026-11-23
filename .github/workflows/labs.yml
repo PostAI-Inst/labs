@@ -1,0 +1,62 @@
+name: Labs catalogue and Pages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 1 * * 1'
+
+permissions:
+  contents: read
+
+concurrency:
+  group: labs-${{ github.event_name == 'pull_request' && github.event.pull_request.number || 'pages' }}
+  cancel-in-progress: false
+
+jobs:
+  catalogue:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: read
+    steps:
+      - uses: actions/checkout@v6
+      - name: Materialize verified sources and repository updates
+        run: python3 scripts/materialize.py --output "$RUNNER_TEMP/labs-site"
+      - name: Verify generated homepage
+        run: python3 "$RUNNER_TEMP/labs-site/scripts/build_index.py" --check
+      - name: Audit project coverage and local dependencies
+        run: python3 "$RUNNER_TEMP/labs-site/scripts/audit.py" --output "$RUNNER_TEMP/catalogue-audit.json"
+      - name: Retain audit report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: catalogue-audit
+          path: ${{ runner.temp }}/catalogue-audit.json
+          if-no-files-found: ignore
+          retention-days: 30
+      - name: Configure GitHub Pages
+        if: github.event_name != 'pull_request' && github.event_name != 'schedule'
+        uses: actions/configure-pages@v5
+      - name: Upload static website
+        if: github.event_name != 'pull_request' && github.event_name != 'schedule'
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: ${{ runner.temp }}/labs-site
+
+  deploy:
+    needs: catalogue
+    if: github.event_name != 'pull_request' && github.event_name != 'schedule'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
